@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 
 	"github.com/kyma-incubator/terraform-provider-gardener/expand"
 	v1 "k8s.io/api/core/v1"

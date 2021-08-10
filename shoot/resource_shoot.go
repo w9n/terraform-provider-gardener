@@ -8,10 +8,10 @@ import (
 
 	gardencorev1beta1 "github.com/gardener/gardener/pkg/apis/core/v1beta1"
 	gardener_apis "github.com/gardener/gardener/pkg/client/core/clientset/versioned/typed/core/v1beta1"
-	"github.com/hashicorp/terraform/helper/mutexkv"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/mutexkv"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/kyma-incubator/terraform-provider-gardener/client"
 	"github.com/kyma-incubator/terraform-provider-gardener/expand"
 	"github.com/kyma-incubator/terraform-provider-gardener/flatten"

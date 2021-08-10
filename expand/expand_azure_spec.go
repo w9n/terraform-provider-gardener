@@ -6,7 +6,7 @@ import (
 
 	azAlpha1 "github.com/gardener/gardener-extension-provider-azure/pkg/apis/azure/v1alpha1"
 	corev1beta1 "github.com/gardener/gardener/pkg/apis/core/v1beta1"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
 
 func azControlPlaneConfig() *corev1beta1.ProviderConfig {

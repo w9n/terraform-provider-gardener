@@ -2,7 +2,7 @@ package expand
 
 import (
 	corev1beta1 "github.com/gardener/gardener/pkg/apis/core/v1beta1"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 )

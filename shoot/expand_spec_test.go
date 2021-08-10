@@ -12,7 +12,7 @@ import (
 	"github.com/gardener/gardener/pkg/apis/core/v1beta1"
 	corev1beta1 "github.com/gardener/gardener/pkg/apis/core/v1beta1"
 	cmp "github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/kyma-incubator/terraform-provider-gardener/expand"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

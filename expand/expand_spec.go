@@ -3,7 +3,7 @@ package expand
 import (
 	corev1beta1 "github.com/gardener/gardener/pkg/apis/core/v1beta1"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
 
 // Expanders

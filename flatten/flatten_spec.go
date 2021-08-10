@@ -5,7 +5,7 @@ import (
 	"github.com/kyma-incubator/terraform-provider-gardener/expand"
 
 	//"github.com/gardener/gardener/pkg/apis/garden/v1beta1"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	//"github.com/kyma-incubator/terraform-provider-gardener/expand"
 )
 

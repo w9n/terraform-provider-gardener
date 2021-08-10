@@ -2,9 +2,10 @@ package expand
 
 import (
 	"encoding/json"
+
 	awsAlpha1 "github.com/gardener/gardener-extension-provider-aws/pkg/apis/aws/v1alpha1"
 	corev1beta1 "github.com/gardener/gardener/pkg/apis/core/v1beta1"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
 
 func AwsControlPlaneConfig() *corev1beta1.ProviderConfig {

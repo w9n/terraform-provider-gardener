@@ -1,6 +1,6 @@
 package shoot
 
-import "github.com/hashicorp/terraform/helper/schema"
+import "github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 
 func gcpControlPlaneResource() *schema.Resource {
 	return &schema.Resource{
