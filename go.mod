@@ -13,7 +13,5 @@ require (
 	github.com/mattn/go-isatty v0.0.9 // indirect
 	k8s.io/api v0.17.17
 	k8s.io/apimachinery v0.17.17
-	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
+	k8s.io/client-go v0.17.17
 )
-
-replace k8s.io/client-go => k8s.io/client-go v0.0.0-20190918160344-1fbdaa4c8d90 // kubernetes-1.16.0
